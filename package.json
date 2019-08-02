@@ -1,0 +1,19 @@
+{
+  "name": "patris-node",
+  "version": "0.1.0",
+  "description": "patris bot with node.js!",
+  "main": "app.js",
+  "author": "drumath <2237k.drumath@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "npm install",
+    "start": "coffee app.coffee"
+  },
+  "dependencies": {
+    "coffee-script": "^1.12.7",
+    "coffeescript": "^2.4.1",
+    "discord.js": "^11.5.1",
+    "yarn": "^1.17.3"
+  }
+}

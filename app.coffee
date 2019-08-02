@@ -2,6 +2,10 @@ discord = require 'discord.js'
 client = new discord.Client()
 token = process.env.DISCORD_KEY
 
+http = require 'http'
+server = http.createServer()
+server.listen(process.env.PORT)
+
 diceroll = require './diceroll'
 
 client.on 'ready', ->
